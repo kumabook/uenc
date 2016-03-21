@@ -1,0 +1,11 @@
+[package]
+name = "uenc"
+version = "0.1.0"
+authors = ["Hiroki Kumamoto <kumabook@live.jp>"]
+
+[[bin]]
+path = "src/uenc.rs"
+name = "uenc"
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
