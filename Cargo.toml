@@ -6,6 +6,9 @@ authors = ["Hiroki Kumamoto <kumabook@live.jp>"]
 [[bin]]
 path = "src/uenc.rs"
 name = "uenc"
+[[bin]]
+path = "src/udec.rs"
+name = "udec"
 
 [dependencies.url]
 git = "https://github.com/servo/rust-url"
