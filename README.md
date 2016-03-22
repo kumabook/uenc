@@ -1,4 +1,4 @@
-# uenc
+# uenc/udec
 
 Simple command line url encoder/decoder.
 
@@ -16,4 +16,7 @@ $ cargo install https://github.com/kumabook/uenc.git
 ```shell
 $ uenc tag/global.must
 => tag%2Fglobal.must
+
+$ udec `uenc tag/global.must`
+=> tag/global.must
 ```
