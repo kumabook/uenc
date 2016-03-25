@@ -7,12 +7,20 @@ use std::io::{self, Read};
 fn main() {
     let args: Vec<_> = env::args().collect();
     if args.len() < 2 {
-        let mut buffer = String::new();
-        match io::stdin().read_to_string(&mut buffer) {
-            Ok(_)  => println!("{}", decode(&buffer)),
-            Err(_) => println!(""),
+        let stdin = io::stdin();
+        loop {
+            let mut buffer = String::new();
+            match stdin.read_line(&mut buffer) {
+                Ok(len) => {
+                    if len > 0 {
+                        print!("{}", decode(&buffer))
+                    } else {
+                        return
+                    }
+                }
+                Err(_) => return,
+            }
         }
-        return;
     }
     println!("{}", decode(&args[1]));
 }
