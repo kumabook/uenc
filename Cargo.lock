@@ -2,7 +2,7 @@
 name = "uenc"
 version = "0.1.1"
 dependencies = [
- "url 0.5.7 (git+https://github.com/servo/rust-url)",
+ "url 0.5.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -44,7 +44,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "url"
 version = "0.5.7"
-source = "git+https://github.com/servo/rust-url#172267cb28357d47d5777740e63c6993acffa35e"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "matches 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "rustc-serialize 0.3.18 (registry+https://github.com/rust-lang/crates.io-index)",

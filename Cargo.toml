@@ -15,5 +15,5 @@ name = "uenc"
 path = "src/udec.rs"
 name = "udec"
 
-[dependencies.url]
-git = "https://github.com/servo/rust-url"
+[dependencies]
+url = "0.5.7"
