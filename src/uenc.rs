@@ -13,7 +13,7 @@ fn main() {
             match stdin.read_line(&mut buffer) {
                 Ok(len) => {
                     if len > 0 {
-                        println!("{}", encode(&buffer[..len-1]))
+                        print!("{}", encode(&buffer[..len]))
                     } else {
                         return
                     }
