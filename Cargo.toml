@@ -17,3 +17,4 @@ name = "udec"
 
 [dependencies]
 url = "0.5.7"
+getopts = "0.2"
