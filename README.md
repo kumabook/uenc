@@ -8,7 +8,7 @@ Simple command line url encoder/decoder.
 With rust and cargo already installed:
 
 ```shell
-$ cargo install https://github.com/kumabook/uenc.git
+$ cargo install uenc
 ```
 
 ## Usage
