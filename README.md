@@ -20,3 +20,11 @@ $ uenc tag/global.must
 $ udec `uenc tag/global.must`
 => tag/global.must
 ```
+
+To be interactive, use `-n` options that keeps newline:
+
+```shell
+$ uenc -n
+tag/global.must
+=> tag%2Fglobal.must
+```
