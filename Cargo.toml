@@ -4,7 +4,7 @@ version = "0.1.1"
 authors = ["Hiroki Kumamoto <kumabook@live.jp>"]
 description = "Command line url encoder/decoder"
 readme = "README.md"
-license-file = "LICENSE"
+license = "MIT"
 homepage = "https://github.com/kumabook/uenc"
 repository = "https://github.com/kumabook/uenc.git"
 
