@@ -2,7 +2,7 @@ extern crate url;
 
 use url::percent_encoding::{lossy_utf8_percent_decode};
 use std::env;
-use std::io::{self, Read};
+use std::io::{self};
 
 fn main() {
     let args: Vec<_> = env::args().collect();
