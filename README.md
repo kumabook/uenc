@@ -5,7 +5,14 @@ Simple command line url encoder/decoder.
 
 ## Installation
 
-With rust and cargo already installed:
+With homebrew already installed:
+
+```shell
+$ brew tap kumabook/uenc
+$ brew install uenc
+```
+
+Or, with rust and cargo already installed:
 
 ```shell
 $ cargo install uenc
